@@ -1,0 +1,4 @@
+node_modules/
+sensei-vault.sqlite*
+uploads/*
+!uploads/.keep

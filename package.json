@@ -1,0 +1,21 @@
+{
+  "name": "sensei-design-vault",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Design version control and release governance for Sensei",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build:icons": "esbuild icon-source.js --bundle --format=esm --outfile=public/icons.js"
+  },
+  "dependencies": {
+    "@hugeicons/core-free-icons": "^4.4.0",
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
